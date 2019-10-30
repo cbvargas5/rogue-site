@@ -1,0 +1,138 @@
+/*****base styles*****/
+@font-face{
+	font-family: 'Wisdom Script';
+	src: url('../fonts/wisdom-script.otf') format('opentype');
+}
+
+
+body {
+	font-family: 'Montserrat', sans-serif;
+	color: #333333;
+}
+
+a {
+	text-decoration: none;
+}
+
+/***** GRID STYLES *****/
+
+.full-width {
+	width: 1200px;
+	margin: 0 auto;
+}
+
+.half-width {
+	width: 600px;
+	float: left;
+}
+
+.third-width {
+	width: 360px;
+	float: left;
+}
+
+/*****header*****/
+
+ header .full-width {
+ 	height: 100px
+ }
+
+ header h1 {
+ 	padding-top: 10px;
+ 	padding-left: 0px;
+ 	margin-left: 20px;
+ }
+
+ header h1 span {
+ 	color: #77a466;
+ }
+
+ nav {
+	float: right;
+	padding: 25px 0px;
+}
+
+nav ul li{
+	display: inline-block;
+}
+
+nav ul li a {
+	font-size: 18px;
+	color: #77a466;
+	padding-left: 5px;
+	font-weight: bold;
+}
+
+header img {
+	border-top: 3px solid #77a466;
+	border-bottom: 3px solid #77a466;
+	margin: 0 20px 0 20px;
+}
+
+/*****intro*****/
+
+#intro .full-width {
+	margin-left: 20px;
+	line-height: 25px;
+	font-size: 16px;
+	font-weight: bold;
+}
+
+#intro .full-width h2 {
+	color: #77a466;
+}
+
+/*****bottom*****/
+
+#bottom .full-width {
+	border-top: 1px solid #dedbdc;
+	border-bottom: 1px solid #dedbdc;
+	margin: 25px 20px 20px 20px;
+	line-height: 25px;
+	overflow: auto;
+}
+
+#specials {
+	line-height: 28px;
+	font-weight: normal;
+	font-size: 16px;
+	padding-bottom: 24px;
+}
+
+#specials ul {
+	list-style: none;
+	padding-left: 0;
+	margin-left: 0;
+}
+
+#specials a {
+	color: #77a466;
+}
+
+#reviews, #contact {
+	font-weight: bold;
+	font-size: 12px;
+	padding: 0 20px 0 20px;
+}
+
+#reviews {
+	border-left: solid 1px #dedbdc;
+	border-right: solid 1px #dedbdc;
+}
+
+#contact {
+	padding-bottom: 50px;
+}
+
+/*****footer*****/
+
+.full-width #closer {
+	margin: 15px 0 0 20px;
+	clear: both;
+}
+
+footer span {
+	color: #77a466;
+	font-family: 'wisdom-script', cursive;
+	font-size: 14px;
+}
